@@ -17,6 +17,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  --color-dark-gray: #404040;
+  --color-charcoal: #1e1e1e;
+  --color-accent-red: #f10000;
+  --color-light-gray: #d9d9d9;
+  --color-near-black: #0d0d0d;
+  --color-white: #ffffff;
+  --color-primary-blue: #2a90ef;
+  --color-dark: #212121;
 
   --color-dark-100: #0f172a;
   --color-dark-200: #1e293b;
