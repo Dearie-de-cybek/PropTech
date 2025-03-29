@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo on the left */}
         <div className="logo">
-          <span className="font-montserrat font-bold text-2xl text-white">PropertyApp</span>
+          <span className="font-montserrat font-bold text-2xl text-white">LOGO</span>
           {/* <img src="/public/logo.svg" alt="Logo" className="h-10" /> */}
         </div>
         
@@ -25,11 +25,11 @@ const Navbar = () => {
         
         {/* Register and Login on the right */}
         <div className="flex space-x-6">
-          <Link to="/register" className="text-white font-roboto uppercase">
+          <Link to="/register" className="text-blue font-montserrat">
             REGISTER
           </Link>
-          <Link to="/login" className="text-white font-roboto uppercase">
-            LOGIN
+          <Link to="/login" className="text-white font-montserrat">
+            LOG IN
           </Link>
         </div>
       </div>
