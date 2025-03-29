@@ -11,24 +11,25 @@ const Navbar = () => {
         </div>
         
         {/* Navigation links in the middle */}
-        <div className="flex space-x-4">
+        <div className="bg-[#1E1E1E] rounded-[20px] px-4 py-3 flex items-center gap-6">
           {['Home', 'Buy', 'Rent', 'Sell', 'Agency'].map((item) => (
             <Link
               key={item}
               to={`/${item.toLowerCase()}`}
-              className="px-4 py-2 rounded-full bg-[#1E1E1E] text-white font-montserrat hover:bg-opacity-80 transition duration-300"
+              className="relative px-3 text-white font-montserrat font-medium hover:text-[#F10000] transition-all duration-300 group"
             >
               {item}
+              <span className="absolute -bottom-2 left-0 right-0 mx-auto w-0 h-px bg-[#f10000] group-hover:w-8 transition-all duration-300"></span>
             </Link>
           ))}
         </div>
         
         {/* Register and Login on the right */}
         <div className="flex space-x-6">
-          <Link to="/register" className="text-blue font-montserrat">
+          <Link to="/register" className="text-blue-500 font-semibold font-montserrat">
             REGISTER
           </Link>
-          <Link to="/login" className="text-white font-montserrat">
+          <Link to="/login" className="text-white font-semibold font-montserrat">
             LOG IN
           </Link>
         </div>
