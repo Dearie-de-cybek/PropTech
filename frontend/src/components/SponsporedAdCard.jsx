@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SponsoredAdCard = ({
-  imageUrl = '/ad-image.jpg',
+  imageUrl = '../public/images/sponspored1.jpg',
   adTitle = 'Premium Advertisement Space',
   description = 'Reach thousands of potential customers with your sponsored content',
   ctaText = 'Learn More',

@@ -12,18 +12,25 @@ const PropertyHome = () => {
   const sponsoredAds = [
     {
       id: 1,
-      imageUrl: '/sponsored-ad-1.jpg',
+      imageUrl: '../public/images/sponspored1.jpg',
       adTitle: 'Premium Oceanview Property',
       description: 'Exclusive beachfront living with panoramic views',
       advertiserName: 'Luxury Realty'
     },
     {
       id: 2,
-      imageUrl: '/sponsored-ad-2.jpg',
+      imageUrl: '../public/images/sponspored2.jpg',
       adTitle: 'Modern Downtown Apartments',
       description: 'Urban living redefined in the heart of the city',
       advertiserName: 'Metro Properties'
-    }
+    },
+    {
+        id: 2,
+        imageUrl: '../public/images/sponspored3.jpg',
+        adTitle: 'Modern Downtown Apartments',
+        description: 'Urban living redefined in the heart of the city',
+        advertiserName: 'Metro Properties'
+      }
   ];
 
   // Sample data for properties
