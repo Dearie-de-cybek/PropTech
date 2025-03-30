@@ -15,21 +15,24 @@ const PropertyHome = () => {
       imageUrl: '../public/images/sponspored1.jpg',
       adTitle: 'Premium Oceanview Property',
       description: 'Exclusive beachfront living with panoramic views',
-      advertiserName: 'Luxury Realty'
+      advertiserName: 'Luxury Realty',
+      advertiserLogo : '/advertiser-logo.png'
     },
     {
       id: 2,
       imageUrl: '../public/images/sponspored2.jpg',
       adTitle: 'Modern Downtown Apartments',
       description: 'Urban living redefined in the heart of the city',
-      advertiserName: 'Metro Properties'
+      advertiserName: 'Metro Properties',
+      advertiserLogo : '/advertiser-logo.png'
     },
     {
         id: 2,
         imageUrl: '../public/images/sponspored3.jpg',
         adTitle: 'Modern Downtown Apartments',
         description: 'Urban living redefined in the heart of the city',
-        advertiserName: 'Metro Properties'
+        advertiserName: 'Metro Properties',
+        advertiserLogo : '/advertiser-logo.png'
       }
   ];
 
