@@ -16,7 +16,7 @@ const PropertyHome = () => {
       adTitle: 'Premium Oceanview Property',
       description: 'Exclusive beachfront living with panoramic views',
       advertiserName: 'Luxury Realty',
-      advertiserLogo : '/advertiser-logo.png'
+      advertiserLogo : '../public/images/adlogo.png'
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const PropertyHome = () => {
       adTitle: 'Modern Downtown Apartments',
       description: 'Urban living redefined in the heart of the city',
       advertiserName: 'Metro Properties',
-      advertiserLogo : '/advertiser-logo.png'
+      advertiserLogo : '../public/images/adlogo.png'
     },
     {
         id: 2,
@@ -32,7 +32,7 @@ const PropertyHome = () => {
         adTitle: 'Modern Downtown Apartments',
         description: 'Urban living redefined in the heart of the city',
         advertiserName: 'Metro Properties',
-        advertiserLogo : '/advertiser-logo.png'
+        advertiserLogo : '../public/images/adlogo.png'
       }
   ];
 
@@ -115,6 +115,7 @@ const PropertyHome = () => {
               adTitle={ad.adTitle}
               description={ad.description}
               advertiserName={ad.advertiserName}
+              advertiserLogo={ad.advertiserLogo}
             />
           ))}
         </div>
