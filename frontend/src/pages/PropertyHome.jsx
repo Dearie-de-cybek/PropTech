@@ -40,7 +40,7 @@ const PropertyHome = () => {
   const properties = [
     {
       id: 1,
-      imageUrl: '/property-1.jpg',
+      imageUrl: '../public/images/room1.jpg',
       address: '123 Main St, Springfield',
       price: 480000,
       bedrooms: 3,
@@ -50,7 +50,7 @@ const PropertyHome = () => {
     },
     {
       id: 2,
-      imageUrl: '/property-2.jpg',
+      imageUrl: '../public/images/room2.jpg',
       address: '456 Oak Ave, Riverside',
       price: 550000,
       bedrooms: 4,
@@ -60,7 +60,7 @@ const PropertyHome = () => {
     },
     {
       id: 3,
-      imageUrl: '/property-3.jpg',
+      imageUrl: '../public/images/room3.jpg',
       address: '789 Pine Rd, Lakeside',
       price: 395000,
       bedrooms: 2,
@@ -70,7 +70,7 @@ const PropertyHome = () => {
     },
     {
       id: 4,
-      imageUrl: '/property-4.jpg',
+      imageUrl: '../public/images/room4.jpg',
       address: '101 Cedar Ln, Mountainview',
       price: 620000,
       bedrooms: 5,
@@ -80,7 +80,7 @@ const PropertyHome = () => {
     },
     {
       id: 5,
-      imageUrl: '/property-5.jpg',
+      imageUrl: '../public/images/room5.jpg',
       address: '202 Elm St, Brookside',
       price: 450000,
       bedrooms: 3,
@@ -90,7 +90,7 @@ const PropertyHome = () => {
     },
     {
       id: 6,
-      imageUrl: '/property-6.jpg',
+      imageUrl: '../public/images/room6.jpg',
       address: '303 Maple Dr, Westfield',
       price: 510000,
       bedrooms: 4,
