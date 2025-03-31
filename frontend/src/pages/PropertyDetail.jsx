@@ -13,10 +13,10 @@ const PropertyDetail = () => {
     bathrooms: 2,
     toilets: 2,
     images: [
-      "/property-main.jpg",
-      "/property-detail-1.jpg",
-      "/property-detail-2.jpg",
-      "/property-detail-3.jpg",
+      "../public/images/room1.jpg",
+      "../public/images/room2.jpg",
+      "../public/images/room3.jpg",
+      "../public/images/room4.jpg",
     ],
     description: "A beautiful property with modern amenities...",
     features: ["Air Conditioning", "Pool", "Garden", "Garage"],
@@ -60,7 +60,7 @@ const PropertyDetail = () => {
                 <img
                   src="../public/icons/share.svg"
                   alt="Share"
-                  className="h-6 w-6"
+                  className="h-[20px] w-[17px]"
                 />
               </button>
               <button className="text-white">
