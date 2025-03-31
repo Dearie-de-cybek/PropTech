@@ -74,56 +74,67 @@ const PropertyDetail = () => {
           </div>
 
           {/* Image Gallery Grid */}
-          <div className="grid grid-cols-3 gap-4 h-[400px] mb-8">
-            {/* Main large image */}
-            <div className="col-span-2 row-span-2 relative">
-              <img
-                src={property.images[0]}
-                alt={property.name}
-                className="w-full h-full object-cover rounded-md"
-              />
-              <button className="absolute left-4 bottom-4 bg-[#212121] p-2 rounded">
-                <img
-                  src="../public/icons/expand.svg"
-                  alt="Expand"
-                  className="h-5 w-5"
+          <div className="flex gap-4 mb-8">
+          {/* Main large image (700px x 500px) */}
+          <div className="relative">
+            <img 
+              src={property.images[0]} 
+              alt={property.name} 
+              className="w-[700px] h-[500px] object-cover rounded-md"
+            />
+            <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
+              <img src="../public/icons/expand.svg" alt="Expand" className="h-5 w-5" />
+            </button>
+          </div>
+          
+          {/* Right side container */}
+          <div className="flex flex-col gap-10">
+            {/* Top row with two images side by side */}
+            <div className="flex gap-4">
+              {/* Floor Plan image (280px x 210px) */}
+              <div className="relative">
+                <img 
+                  src={property.images[1]} 
+                  alt={`${property.name} detail 1`} 
+                  className="w-[280px] h-[210px] object-cover rounded-md"
                 />
+                <div className="absolute bottom-4 left-4 bg-[#212121] text-white text-sm px-2 py-1 rounded">
+                  Floor Plan
+                </div>
+                <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
+                  <img src="../public/icons/expand.svg" alt="Expand" className="h-5 w-5" />
+                </button>
+              </div>
+              
+              {/* Blueprint image (280px x 210px) */}
+              <div className="relative">
+                <img 
+                  src={property.images[2]} 
+                  alt={`${property.name} detail 2`} 
+                  className="w-[280px] h-[210px] object-cover rounded-md"
+                />
+                <div className="absolute bottom-4 left-4 bg-[#212121] text-white text-sm px-2 py-1 rounded">
+                  Blueprint
+                </div>
+                <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
+                  <img src="../public/icons/expand.svg" alt="Expand" className="h-5 w-5" />
+                </button>
+              </div>
+            </div>
+            
+            {/* Bottom larger image (600px x 250px) */}
+            <div className="relative">
+              <img 
+                src={property.images[3]} 
+                alt={`${property.name} detail 3`} 
+                className="w-[600px] h-[250px] object-cover rounded-md"
+              />
+              <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
+                <img src="../public/icons/expand.svg" alt="Expand" className="h-5 w-5" />
               </button>
             </div>
-
-            {/* Top right image 1 */}
-            <div className="relative">
-              <img
-                src={property.images[1]}
-                alt={`${property.name} detail 1`}
-                className="w-full h-full object-cover rounded-md"
-              />
-              <div className="absolute bottom-4 left-4 bg-[#212121] text-white text-sm px-2 py-1 rounded">
-                Floor Plan
-              </div>
-            </div>
-
-            {/* Top right image 2 */}
-            <div className="relative">
-              <img
-                src={property.images[2]}
-                alt={`${property.name} detail 2`}
-                className="w-full h-full object-cover rounded-md"
-              />
-              <div className="absolute bottom-4 left-4 bg-[#212121] text-white text-sm px-2 py-1 rounded">
-                Blueprint
-              </div>
-            </div>
-
-            {/* Bottom right larger image */}
-            <div className="col-span-1 relative">
-              <img
-                src={property.images[3]}
-                alt={`${property.name} detail 3`}
-                className="w-full h-full object-cover rounded-md"
-              />
-            </div>
           </div>
+        </div>
 
           {/* More property details would go here */}
           {/* Add sections for property details, features, agent info, etc. */}
