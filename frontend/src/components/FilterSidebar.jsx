@@ -70,7 +70,7 @@ const PriceSlider = () => {
 // Main Filter Sidebar Component
 const FilterSidebar = () => {
   return (
-    <div className="w-64 bg-[#1E1E1E] p-4">
+    <div className="w-64 bg-[#0D0D0D] p-4">
       <h2 className="text-lg text-white font-bold mb-4">Filter by</h2>
       
       {/* Property Type */}
