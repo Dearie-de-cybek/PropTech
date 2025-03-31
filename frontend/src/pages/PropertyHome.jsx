@@ -135,26 +135,45 @@ const PropertyHome = () => {
         {/* Property Listings */}
         <div className="flex-1 ml-6">
           {/* View Options and Sort */}
+          {/* View Options and Sort */}
           <div className="flex justify-end items-center mb-6">
-            {/* Grid View Icon */}
-            <button
-              onClick={() => setViewType("grid")}
-              className={`p-2 ${
-                viewType === "grid" ? "text-[#f10000]" : "text-white"
-              }`}
-            >
-              <img src="../public/icons/4grid.svg" alt="" />
-            </button>
+            {/* View Toggle Container */}
+            <div className="flex relative bg-[#404040] rounded-lg p-1 mr-4">
+              {/* Animated Background Slider */}
+              <div
+                className={`absolute top-1 bottom-1 w-10 bg-[#1E1E1E] rounded transition-all duration-300 ease-in-out ${
+                  viewType === "grid" ? "left-1" : "left-[43px]"
+                }`}
+              ></div>
 
-            {/* List View Icon */}
-            <button
-              onClick={() => setViewType("list")}
-              className={`p-2 ${
-                viewType === "list" ? "text-[#f10000]" : "text-white"
-              }`}
-            >
-             <img src="../public/icons/list.svg" alt="" />
-            </button>
+              {/* Grid View Icon */}
+              <button
+                onClick={() => setViewType("grid")}
+                className={`relative z-10 p-2 rounded-md transition-colors duration-300 ${
+                  viewType === "grid" ? "text-[#f10000]" : "text-white"
+                }`}
+              >
+                <img
+                  src="../public/icons/4grid.svg"
+                  alt="Grid View"
+                  className="h-5 w-5"
+                />
+              </button>
+
+              {/* List View Icon */}
+              <button
+                onClick={() => setViewType("list")}
+                className={`relative z-10 p-2 rounded-md transition-colors duration-300 ${
+                  viewType === "list" ? "text-[#f10000]" : "text-white"
+                }`}
+              >
+                <img
+                  src="../public/icons/list.svg"
+                  alt="List View"
+                  className="h-5 w-5"
+                />
+              </button>
+            </div>
 
             {/* Separator */}
             <div className="h-6 w-px bg-white mx-3"></div>
@@ -162,8 +181,6 @@ const PropertyHome = () => {
             {/* Sort Text */}
             <span className="text-white">Sort</span>
           </div>
-
-          {/* Property Grid */}
           {/* Property Grid */}
           <div
             className={`grid ${
