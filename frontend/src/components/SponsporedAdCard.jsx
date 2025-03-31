@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SponsoredAdCard = ({
-  imageUrl = '/ad-image.jpg',
+  imageUrl = '../public/images/sponspored1.jpg',
   adTitle = 'Premium Advertisement Space',
   description = 'Reach thousands of potential customers with your sponsored content',
   ctaText = 'Learn More',
@@ -10,7 +10,7 @@ const SponsoredAdCard = ({
   advertiserLogo = '/advertiser-logo.png'
 }) => {
   return (
-    <div className="w-[450px] h-[450px] bg-[#1E1E1E] rounded-lg overflow-hidden shadow-lg">
+    <div className="w-[450px] h-[450px] bg-[#1E1E1E]  overflow-hidden shadow-lg">
       {/* Ad Image Section */}
       <div className="h-[250px] relative">
         <img 
@@ -38,7 +38,7 @@ const SponsoredAdCard = ({
           {/* CTA Button */}
           <a 
             href={ctaUrl} 
-            className="bg-[#f10000] hover:bg-red-700 text-white py-2 px-6 rounded-md font-bold transition duration-300"
+            className="bg-[#f10000] hover:bg-red-700 text-white py-2 px-6 font-bold transition duration-300"
           >
             {ctaText}
           </a>
@@ -48,7 +48,7 @@ const SponsoredAdCard = ({
             <img 
               src={advertiserLogo} 
               alt={advertiserName} 
-              className="w-8 h-8 rounded-full object-cover mr-2"
+              className="w-8 h-8  object-cover mr-2"
             />
             <span className="text-white text-xs">{advertiserName}</span>
           </div>
