@@ -82,7 +82,7 @@ const PropertyDetail = () => {
               alt={property.name} 
               className="w-[700px] h-[500px] object-cover rounded-md"
             />
-            <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
+            <button className="absolute left-4 top-4 p-2 rounded">
               <img src="../public/icons/expansion.svg" alt="Expand" className="h-5 w-5" />
             </button>
           </div>
@@ -101,7 +101,7 @@ const PropertyDetail = () => {
                 <div className="absolute bottom-4 left-4 bg-[#212121] text-white text-sm px-2 py-1 rounded">
                   Floor Plan
                 </div>
-                <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
+                <button className="absolute left-4 top-4  p-2 rounded">
                   <img src="../public/icons/expansion.svg" alt="Expand" className="h-5 w-5" />
                 </button>
               </div>
@@ -116,7 +116,7 @@ const PropertyDetail = () => {
                 <div className="absolute bottom-4 left-4 bg-[#212121] text-white text-sm px-2 py-1 rounded">
                   Blueprint
                 </div>
-                <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
+                <button className="absolute left-4 top-4  p-2 rounded">
                   <img src="../public/icons/expansion.svg" alt="Expand" className="h-5 w-5" />
                 </button>
               </div>
@@ -129,7 +129,7 @@ const PropertyDetail = () => {
                 alt={`${property.name} detail 3`} 
                 className="w-[600px] h-[250px] object-cover rounded-md"
               />
-              <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
+              <button className="absolute left-4 top-4 p-2 rounded">
                 <img src="../public/icons/expansion.svg" alt="Expand" className="h-5 w-5" />
               </button>
             </div>
