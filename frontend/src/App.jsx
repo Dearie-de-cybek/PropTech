@@ -5,6 +5,7 @@ import './global.css';
 // import Navbar from './components/Navbar';
 import PropertyNavbar from './components/PropertyNavbar';
 import PropertyHome from './pages/PropertyHome';
+import PropertyDetail from './pages/PropertyDetail';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<PropertyHome />} />
               <Route path="/properties" element={<PropertyHome />} />
+              <Route path="/properties-detail" element={<PropertyDetail />} />
             </Routes>
           </Router>
   )
