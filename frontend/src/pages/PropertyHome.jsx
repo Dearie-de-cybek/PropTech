@@ -190,12 +190,13 @@ const PropertyHome = () => {
           </div>
 
           {/* Property Grid */}
+          {/* Property Grid */}
           <div
             className={`grid ${
               viewType === "grid"
-                ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+                ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
                 : "grid-cols-1"
-            } gap-8`}
+            } gap-8 bg-[#404040] p-6`}
           >
             {properties.map((property) => (
               <PropertyCard
