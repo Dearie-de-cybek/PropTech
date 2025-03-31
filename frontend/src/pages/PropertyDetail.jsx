@@ -83,7 +83,7 @@ const PropertyDetail = () => {
               className="w-[700px] h-[500px] object-cover rounded-md"
             />
             <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
-              <img src="../public/icons/expand.svg" alt="Expand" className="h-5 w-5" />
+              <img src="../public/icons/expansion.svg" alt="Expand" className="h-5 w-5" />
             </button>
           </div>
           
@@ -102,7 +102,7 @@ const PropertyDetail = () => {
                   Floor Plan
                 </div>
                 <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
-                  <img src="../public/icons/expand.svg" alt="Expand" className="h-5 w-5" />
+                  <img src="../public/icons/expansion.svg" alt="Expand" className="h-5 w-5" />
                 </button>
               </div>
               
@@ -117,7 +117,7 @@ const PropertyDetail = () => {
                   Blueprint
                 </div>
                 <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
-                  <img src="../public/icons/expand.svg" alt="Expand" className="h-5 w-5" />
+                  <img src="../public/icons/expansion.svg" alt="Expand" className="h-5 w-5" />
                 </button>
               </div>
             </div>
@@ -130,7 +130,7 @@ const PropertyDetail = () => {
                 className="w-[600px] h-[250px] object-cover rounded-md"
               />
               <button className="absolute left-4 top-4 bg-[#212121] p-2 rounded">
-                <img src="../public/icons/expand.svg" alt="Expand" className="h-5 w-5" />
+                <img src="../public/icons/expansion.svg" alt="Expand" className="h-5 w-5" />
               </button>
             </div>
           </div>
