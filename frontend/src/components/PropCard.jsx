@@ -23,19 +23,13 @@ const PropCard = ({
           
           {/* Address Tag */}
           <div className="absolute top-3 left-3 bg-[#212121] text-white py-1 px-2 rounded flex items-center text-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
+            <img src="../public/icons/map.svg" alt="" />
             <span className="truncate max-w-[180px]">{address}</span>
           </div>
           
           {/* Image Count Tag */}
           <div className="absolute bottom-3 left-3 bg-[#212121] text-white p-1 rounded flex items-center text-xs">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 9a2 2 0 012-2h.93a2 2 0 001.664-.89l.812-1.22A2 2 0 0110.07 4h3.86a2 2 0 011.664.89l.812 1.22A2 2 0 0018.07 7H19a2 2 0 012 2v9a2 2 0 01-2 2H5a2 2 0 01-2-2V9z" />
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 13a3 3 0 11-6 0 3 3 0 016 0z" />
-            </svg>
+            <img src="../public/icons/camera.svg" alt="" />
             <span>{imageCount}</span>
           </div>
         </div>
