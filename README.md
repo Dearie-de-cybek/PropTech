@@ -73,3 +73,6 @@ npm start
 
 For any questions or issues, please open a GitHub issue
 ```
+
+Link to figma repo 
+https://www.figma.com/design/z9LwuWES1z1tUIdN8ksWMx/PropCentre?node-id=0-1&p=f&t=q3hPrdLIVyYbKC6U-0
