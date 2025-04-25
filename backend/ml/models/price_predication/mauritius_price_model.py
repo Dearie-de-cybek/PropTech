@@ -1,4 +1,3 @@
-# backend/ml/models/price_prediction/mauritius_price_model.py
 import xgboost as xgb
 import pandas as pd
 import numpy as np

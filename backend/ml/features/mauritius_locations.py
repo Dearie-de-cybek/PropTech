@@ -1,4 +1,3 @@
-# backend/ml/features/mauritius_location.py
 import pandas as pd
 import numpy as np
 import geopandas as gpd

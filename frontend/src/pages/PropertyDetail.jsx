@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import PropertyNavbar from "../components/PropertyNavbar";
 
 const PropertyDetail = () => {
-  // Sample property data
   const property = {
     id: 1,
     name: "La Rouge Maisonnette",
